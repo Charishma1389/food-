@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.food-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.food-item h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Modal customization (optional) */
+#foodModal img {
+    height: auto;
+    max-width: 100%;
+}
